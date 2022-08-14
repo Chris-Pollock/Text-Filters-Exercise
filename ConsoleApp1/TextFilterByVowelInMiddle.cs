@@ -33,7 +33,7 @@ namespace TextFilter
             else
             {
                 int index = wordToProcess.Length - 1;
-                index = index / 2;
+                index = index / 2; //this is bad but does work to get the center index for now.
                 if (isVowel(wordToProcess[index]))
                 {
                     return true;
